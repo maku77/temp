@@ -1,0 +1,16 @@
+# Maku settings.
+name: まくまくオランダ語ノート
+url: https://maku77.github.io/dutch/
+
+# Prevent the following files from converting by Jekyll.
+exclude: [README.md,run.bat,run.sh]
+
+# Enable highlighter.
+# highlighter: rouge
+
+# Parse markdown files just like GitHub Flavored Markdown.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false  # Not insert BR for each line
+
